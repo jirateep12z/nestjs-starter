@@ -1,0 +1,16 @@
+[install]
+# Use exact versions from package.json
+exact = false
+
+# Enable production mode for faster installs
+production = false
+
+# Registry configuration
+registry = "https://registry.npmjs.org/"
+
+# Cache directory
+cache = "node_modules/.cache/bun"
+
+[run]
+# Enable bun shell for scripts
+shell = "bun"
